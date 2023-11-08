@@ -16,6 +16,5 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          name: ghcr.io/galinacheren/top-app-demo/top-app-demo
           username: ${{ github.actor }}
           password: ${{ secrets.DOCKER_PASSWORD }}
