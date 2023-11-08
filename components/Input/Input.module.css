@@ -1,0 +1,29 @@
+.input {
+	padding: 7px 15px;
+	color: var(--black);
+	width: 100%;
+	border: none;
+	outline: var(--primary);
+	background: var(--white);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: '__Noto_Sans_80ff56', '__Noto_Sans_Fallback_80ff56';
+	line-height: normal;
+}
+.input::placeholder {
+	color: var(--gray);
+}
+.error {
+	border: 1px solid var(--red);
+}
+.inputWrapper {
+	position: relative;
+}
+.errorMessage {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	color: var(--red);
+}

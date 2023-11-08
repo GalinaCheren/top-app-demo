@@ -1,0 +1,25 @@
+.up {
+	padding: 0;
+	background: none;
+	cursor: pointer;
+	border: none;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	border-radius: 10px;
+	width: 40px;
+	height: 40px;
+}
+
+.upDesktop {
+	@media screen and (max-width: 640px) {
+		display: none;
+	}
+}
+
+.up.bottom {
+	bottom: 80px;
+}
+.up svg:hover g g:first-child rect {
+	fill: var(--primary-hover);
+}
